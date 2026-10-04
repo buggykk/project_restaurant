@@ -1,5 +1,25 @@
-# Vue 3 + Vite
+# Restaurant Platform
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Реализованный функционал
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+- Форма входа и регистрации
+- Проверка корректности введённых данных
+- Анимированное переключение между формами
+- Адаптивный интерфейс для разных размеров экрана
+- Демонстрационная обработка входа и регистрации
+
+## Технологии
+
+- **Vue 3** — разработка интерфейса
+- **Vite** — сборка и запуск проекта
+- **Element Plus** — компоненты форм
+- **CSS** — оформление и анимации
+- **Font Awesome** — иконки
+
+## Исходный шаблон
+
+За основу интерфейса авторизации был взят открытый проект:
+
+**[Login-SignUp-Vue3-ElementPlus](https://github.com/microlong666/Login-SignUp-Vue3-ElementPlus)**
+
+Исходный шаблон был адаптирован под Vue 3 + Vite. Также выполнены перевод интерфейса на русский язык, изменение оформления, рефакторинг CSS и переработка логики переключения форм.
